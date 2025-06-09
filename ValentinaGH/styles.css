@@ -1,0 +1,828 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+body {
+  font-family: "Montserrat", serif;
+}
+
+.m12{
+    font-size: 12px;
+     text-decoration: none;
+    color: rgba(30, 30, 30, 1);
+}
+.mr14{
+    font-size: 14px;
+    margin-right: 40px;     
+    color: rgba(30, 30, 30, 1);
+     transition: border-color 0.2s ease; /* Плавное изменение подчеркивания */
+            border-bottom: 2px solid transparent; /* Прозрачное подчеркивание по умолчанию */
+             
+}
+.booking-card {
+ 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+}
+form {
+    padding-right: 83px;
+    padding-left: 83px;
+     height: 124px;
+  width: auto;
+  display: flex;
+  flex-direction: row;
+   align-items: center;
+}
+
+.block0 {
+     display: flex;
+  justify-content: center; /* горизонтальное центрирование */
+  align-items: center;
+  background-image: url("img/bookingimg.png");
+  background-size: 1920px 680px; /* Ширина × Высота */
+  background-repeat: no-repeat;
+  height: 680px;
+}
+
+.navbar {
+  height: 120px;
+  background-color: white;
+  z-index: 100;
+}
+
+ul {
+  list-style-type: none; /* Убираем маркеры */
+  padding-left: 0; 
+  margin: 0;
+  
+}
+.header-top {
+   width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+  margin-bottom: 16px;
+}
+.header-bottom{
+ width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+
+}
+.simple_menue{
+   
+  align-items: center;
+  display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.item_menue{
+   position: relative; 
+   align-items: center;
+  display: flex;
+}
+.icon{
+    margin-right: 13px;
+}
+.mstart111{
+    margin-left: 61px;
+}
+.bl0{
+    margin-right: 46px;
+}
+
+.form-label{
+ font-size: 16px;   
+    color: rgba(88, 88, 88, 1);
+    font-weight: 600;
+}
+
+#checkin,#checkout,#guests {
+  width: 260px;   /* Ширина */
+  height: 36px;   /* Высота */
+  font-size: 14px;       /* Размер шрифта */  
+  color: rgba(119, 119, 119, 1);  
+}
+.btn-primary{
+    width: 150px;
+    height: 36px;
+    background-color:rgba(63, 140, 255, 1);
+   margin-top: 12px;
+   border-color: rgba(63, 140, 255, 1);  
+    box-shadow: 0 0 10px 2px rgba(63, 140, 255, 1);
+    font-size: 14px;
+}
+
+.block1{
+    margin-top: -96px; /* Поднимаем нижний блок на 20px вверх */
+  position: relative; /* Для управления z-index */
+  z-index: 1; /* Помещаем выше верхнего блока */
+
+}
+p{
+    margin-top: 36px;
+   text-align: center;
+     font-size: 30px;
+     font-weight: 600;
+     color:rgba(88, 88, 88, 1);
+}
+.card0{
+    background-size: 600px 300px;
+    background-image: url(img/nomer1.png);
+    height:280px ;
+    width: 600px;
+    box-shadow: 0 .5rem 1rem rgba(var(--bs-body-color-rgb), .15) !important;
+    padding-top: 100px;
+    margin-bottom: 24px;
+    color: rgba(255, 255, 255, 1);
+    font-size: 14px;
+    font-weight: 600;
+  
+}
+
+.innercard{
+    height: 174px;
+    width: 600px;
+    background-color: rgba(0, 0, 0, 0.4);
+   
+    
+}
+.pcard{
+    color: rgba(255, 255, 255, 1);
+ font-size: 24px;
+ margin-top: 7px;
+margin-bottom: 8px;
+}
+.cardlist{
+    padding-left: 35px;
+}
+.card1{
+    background-image: url(img/nomer2.png);
+    
+}
+.card2{
+    background-image: url(img/nomer3.png);
+     height:290px ;
+     padding-top: 112px;
+}
+.card3{
+    background-image: url(img/nomer4.png);
+     height:290px ;
+     padding-top: 112px;
+}
+.block2{
+    padding-top: 80px;
+}
+.block2p{
+    font-size: 16px;
+    font-weight: 500;
+    text-align: left;
+    margin-top: 45px;
+}
+img.float-left {
+  float: left;      
+  margin-right: 20px; /* Отступ от текста справа */
+  margin-bottom: 15px; /* Отступ снизу */
+  margin-top: 40px;
+}
+.block3{
+    padding-top: 70px;
+}
+
+.repl{
+    width: auto;
+   display: flex;
+   align-items: center;
+   justify-self: center;
+  
+}
+footer{
+    margin-top: 80px;
+    padding-top: 58px;
+    background-color: rgba(119, 119, 119, 1);
+    color: white;
+    
+}
+
+.socials{
+    display: flex;
+    align-items: center;
+    gap: 11px;
+}
+.copyright{
+    background-color: rgba(98, 98, 98, 1);
+    text-align: center;
+    height: 60;
+   margin-top: 58px;
+    padding-top: 23px;
+    padding-bottom: 23px;
+}
+h2{
+    font-size: 14px;
+    color: white;
+    margin-bottom: 0;
+    font-weight: 400;
+}
+h3{
+    font-size: 20px;
+    color: white;
+    margin-bottom: 7px;
+    font-weight: 600;
+}
+iframe{
+    margin-top: 0 !important;
+}
+
+.footer-list li{
+font-size: 14px;
+margin-bottom: 7px;
+}
+.footer-list li a{
+font-size: 14px;
+
+color: #fff;
+}
+.imgfootr{
+    margin-right:7px ;
+}
+.socials2{
+    margin-top: 20px;
+}
+ .dropdown-toggle::after { display: none; }
+        
+        .dropdown-toggle {
+            background-color: white !important;
+            border-bottom: 2px solid transparent;
+            border-top: 0 !important;
+            border-left: 0cm !important; 
+            border-right: 0cm !important;
+            box-shadow: none !important;
+            border-radius: 0;
+            padding: 0.5rem 1.5rem !important;
+            position: relative;
+            color: #212529;
+            padding: 0!important;
+        }
+        
+        .dropdown-toggle:hover {
+            background-color: white !important;
+             border-bottom: 2px solid rgba(63, 140, 255, 1);
+        }
+        
+        .dropdown-toggle:hover::after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            height: 2px;
+            background: #0d6efd;
+        }
+        
+        .dropdown-menu {
+            border-radius: 0;
+            border: none;
+            box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+            margin-top: 2px; /* Компенсируем подчеркивание */
+        }
+        
+        .dropdown-item {
+            padding: 0.5rem 1.5rem;
+        }
+        
+        .dropdown-item:hover {
+            background-color: #f8f9fa;
+        }
+        .mr14:hover {
+            color: rgba(63, 140, 255, 1);
+            border-bottom: 2px solid rgba(63, 140, 255, 1);
+            
+        }
+
+        .secondp{
+
+background-color: rgba(251, 251, 251, 1);
+        }
+
+        .poloska{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            align-items: center;
+            font-size: 18px;
+            font-weight: 500;
+            color: rgba(196, 196, 196, 1);
+        }
+        
+        .poloskadat{
+            background-color: rgba(255, 178, 63, 1);
+            color: #fff;
+            font-size: 18px;
+            font-weight: 500;
+            display: flex;
+            align-items: center;
+            height: 124px;
+            margin-left: 18px;
+            margin-right: 18px;
+            flex-direction: row;
+            margin-top:  45px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            padding-left: 44px;
+            padding-right: 28px;
+            justify-content: space-between;
+           
+        }
+        .block21,.block22 {
+          
+     display: flex;
+  justify-content: center; /* горизонтальное центрирование */
+  align-items: center;  
+}
+.bpolosk{
+border-radius: 8px;
+border: 2px solid #fff;
+border-color: #fff;
+background-color: rgba(255, 178, 63, 1);
+color: #fff;
+width: 300px;
+height: 40px;
+}
+
+.coupon-container {
+    width: 461px;
+   height: 36px;
+ 
+  }
+
+  .coupon-input-group {
+    display: flex;
+    
+    border-radius: 8px;
+    overflow: hidden;
+   
+  }
+
+  .coupon-input {
+    flex-grow: 1;
+   width: 280px;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    padding-left: 11px;
+    background-color: rgba(248, 248, 248, 1);
+
+  }
+
+  .coupon-input::placeholder {
+    color: rgba(196, 196, 196, 1);
+  }
+
+  .coupon-button {
+    background-color:rgba(63, 140, 255, 1);
+    color: white;
+    
+   border: 1px solid rgba(63, 140, 255, 1);
+  
+    
+   width: 180px;
+   height: 36px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  
+    white-space: nowrap;
+  }
+  .coupon-form{
+    padding: 0;
+    margin: 0;
+    height: 36px;
+  }
+
+  .card-text-small, .card-text-main{
+    text-align: left;
+    font-size:14px ;
+    font-weight: 300;
+    color: rgba(103, 103, 103, 1);   
+   margin: 0;
+  }
+  
+  .firsto p, .secop p{
+    text-align: center;
+    font-size: 12px;
+    font-weight: 400;
+
+  }
+  .forimg{
+    background-image: url(img/nomer21.png);
+    background-size: 282px 300px; /* Ширина × Высота */
+  background-repeat: no-repeat;
+
+
+  }
+
+  .nalichie{
+    background-color: rgba(255, 178, 63, 1);
+    width: 283px;
+    height: 35px;
+    color: #fff;
+    font-size: 16px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .forimg1{
+    background-image: url(img/nomer22.png);
+  }
+  .forimg2{
+    background-image: url(img/nomer23.png);
+  }
+  .forimg3{
+    background-image: url(img/nomer24.png);
+  }
+
+  .yslugisq{
+    background-color: rgba(63, 140, 255, 1);
+    color: #fff;
+    height: 348px;
+    width: 600px;
+      box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
+      margin-left: 18px;
+      margin-top: 37px;
+      padding-top: 50px;
+      padding-left: 47px;
+      padding-right: 40px;
+  } 
+  .pravilasq{
+    background-color: white;
+    color: rgba(30, 30, 30, 1);
+    height:600px ;
+      margin-top: 107px;
+    width: 700px;
+      box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
+      text-align: left;
+      z-index: 10;
+      padding-top: 38px;
+      padding-left: 35px;
+      margin-left: -40px;
+     
+  }
+    .calendar-overlay {
+                 
+            background-color:white;            
+            
+            z-index: 1050; /* Выше чем Bootstrap модалки */
+            display: none;
+            width: 1036px; 
+            height: 390px;
+        }
+        
+        .calendar-container {
+            background: white;           
+            border-radius: 8px;    
+           
+           
+          
+            
+        }
+        
+        .close-calendar {
+            padding-bottom: 20px;
+           
+            background: none;
+            border: none;
+            font-size: 20px;
+            cursor: pointer;
+        }
+
+       
+        .flatpickr-calendar{
+          width: 1000px !important;
+          
+          margin: 18px;
+          margin-bottom: 28px;
+        }
+
+        .flatpickr-innerContainer{
+        
+        align-items: center;
+       justify-content: center;
+        }
+
+       #content,#content1,#content2,#content3 {
+            background-color: #fff;        
+           
+            overflow: hidden;
+            max-height: 0;
+            transition: max-height 0.5s ease, padding 0.3s ease;
+            padding-top: 10px;
+        }
+        
+        #content.show, #content1.show, #content2.show , #content3.show{
+          display: flex;
+           justify-content: center;
+            max-height: 160px; /* Достаточно для контента */
+width: 980px;
+           
+            padding-top: 10px;
+            margin-bottom: 10px;
+            transition: max-height 0.5s ease, padding 0.3s ease;
+             box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+             border-radius: 8px;
+        }
+
+
+        .storys{
+
+         font-size: 16px;
+         color: #fff;
+         text-align: left;
+         background-color: rgba(255, 178, 63, 1);
+         padding-top: 30px;
+         padding-left: 16px;
+         margin-bottom: 26px;
+         padding-bottom: 20px;
+         padding-right: 18px;
+          height: 380px;
+          width: 100%;
+         position: relative;
+
+        
+        
+        }
+
+        .storys h3{
+
+          font-size: 30px;
+          color: #fff;
+          font-weight: 600;
+          margin-bottom: 4px;
+        }
+
+         .storys p{
+margin-top: 0;
+          font-size: 16px;
+          color: white;
+          font-weight: 400;
+          text-align: left;
+         }
+
+          .storys button{
+          position: absolute;
+  bottom: 20px; 
+  left: 185px;    
+          }
+
+          .b41text{
+            margin-left: 95px;
+            margin-right: 115px;
+           
+          }
+
+          h5{
+            font-size: 14px;
+            font-weight: 400;
+            text-align: left;
+            color: rgba(88, 88, 88, 1);
+          }
+          .playgr{
+            background-color: rgba(255, 178, 63, 1);
+            border-radius: 8px;
+            z-index: 0;
+            margin-bottom: -15px;
+            width: 410px;
+            height: 75px;
+            text-align: center;
+            color: #fff;
+            margin-top: 35px;
+          }
+
+          .caroselfon{
+            z-index: 1;
+            margin-left: 18px;
+            margin-right: 18px;
+            width: 1224px;
+            height: 350px;
+             box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+             background-color: #fff;
+             padding-top: 35px;
+             padding-left: 20px;
+             padding-right: 20px;
+             display: flex;
+          }
+
+.carousel-item.active{
+      display: flex;
+      overflow: hidden;
+    }
+
+
+    .carousel-item3.active{
+      display: flex;
+      overflow: hidden;
+    }
+    .carousel-item > div {
+      flex: 1 0 25%; /* 4 на ряд */
+      padding: 5px;
+    }
+
+    .carousel-item3 > div {
+      flex: 1 0 33%; /* 4 на ряд */
+      padding: 5px;
+    }
+    .carousel-item img,.carousel-item3 img {
+      width: 100%;
+      height: auto;
+      display: block;
+      
+    }
+
+    .carousel-control-prev-icon{
+      background-image: url(img/prev.svg);
+      
+     
+
+    }
+
+    .carousel-control-next-icon{
+      background-image: url(img/next.svg);
+      
+    
+    }
+
+    .carousel-control-prev,.carousel-control-next{
+      position: relative;
+      width: 16px;
+      opacity:1.0;
+    }
+
+
+    .infinner{
+      margin-left: 140px;
+      margin-right: 120px;
+      
+    }
+
+    .polosk3{
+      background-color: rgba(255, 178, 63, 1);
+      height: 43px;
+      color: white;
+      text-align: left;
+      padding-left: 40px;
+      display: flex;
+      align-items: center;
+      font-size: 22px;
+      font-weight: 500;
+    }
+    .page5{
+
+      font-size: 14px;
+      font-weight: 300;
+      color: rgba(103, 103, 103, 1);
+      text-align: left;
+    }
+
+   
+
+
+
+   h6{
+
+    margin-top: 36px;
+    margin-bottom: 46px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+    color: rgba(88, 88, 88, 1);
+   }
+   .forms1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 9px;
+
+   }
+
+   .forms2{
+    
+    padding-left: 250px;
+    padding-right: 250px;
+    
+   }
+
+   .fform1{
+    height: 36px;
+    width: 260px;
+    border-color: rgba(217, 217, 217, 1);
+    color: rgba(217, 217, 217, 1);
+    padding-left: 12px;
+
+   }
+
+   .ff2{
+    height: 36px;
+    width: 260px;
+    border-color: rgba(217, 217, 217, 1) !important;
+    color: rgba(217, 217, 217, 1);
+    padding-left: 12px;
+    box-shadow: none;
+     border: 1px solid #ccc;
+  outline: none; /* Убирает свечение при фокусе */
+   }
+   .input-fields{
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+
+   }
+
+   .ff3{
+    width: 529px;
+    height: 336px;
+     border-color: rgba(217, 217, 217, 1) !important;
+    color: rgba(217, 217, 217, 1);
+    padding-left: 12px;
+   }
+
+
+   .custom-checkbox {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  cursor: pointer;
+  font-size: 16px;
+  color: rgba(88, 88, 88, 1);
+  margin-left: 250px;
+  margin-top: 15px;
+}
+
+.custom-checkbox input {
+  display: none; /* Скрываем стандартный чекбокс */
+}
+
+.checkmark {
+  width: 20px;
+  height: 20px;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  transition: background 0.3s;
+}
+
+/* Меняем цвет, когда чекбокс выбран */
+.custom-checkbox input:checked + .checkmark {
+  background: rgba(63, 140, 255, 1); 
+  border-color: rgba(63, 140, 255, 1);
+}
+
+
+.underbuttn{
+  color: rgba(171, 171, 171, 1);
+  font-size: 12px;
+  font-weight: 400;
+  width: auto;
+  margin-top: 0;
+  text-align: center;
+}
+
+.oplatablock2{
+  background-color: rgba(249, 249, 249, 1);
+ padding-left: 250px;
+ padding-right: 250px;
+padding-top: 3px;
+padding-bottom: 24px;
+}
+
+.itogoplata{
+  background-color: white;
+  padding-left: 298px;
+  padding-bottom: 17px;
+  padding-top: 13px;
+}
+
+
+.ulunderpoloskadat{
+display: flex;
+            align-items: center;           
+            flex-direction: row;
+             gap: 17px;
+}
+
+.nomerablock{
+  background-color: rgba(196, 196, 196, 1); margin-top: 41px;
+        margin-bottom: 43px;
+        margin-left: 140px;
+        margin-right: 120px;
+         box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+         height: 54px;
+         display: flex;
+         justify-content: center;
+         align-items: center;
+}
+
+.kalendarb{
+  border-color:rgba(63, 140, 255,0.6); color: rgba(63, 140, 255, 1); height: 34px; width: 120px; font-size: 12px; margin-top: 15px !important;
+}
+.priceb{
+  border-color:rgba(255, 178, 63, 1); color: white; height: 34px; width: 120px; font-size: 12px; margin-top: 15px !important; background-color:rgba(255, 178, 63, 1) ; box-shadow: none;
+}
+
+

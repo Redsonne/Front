@@ -1,0 +1,1076 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Номера и цены</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" defer></script>
+    <!-- Popper.js -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" defer></script>
+    <!-- Bootstrap 5 JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js" defer></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-light  shadow  ">
+        <div class="container  ">
+            <div class="header-top">
+                <div class="d-flex align-items-center">
+                    <img src="img/Vector.svg" alt="homesign" class="icon">
+                    <a class="m12">Абхазия, Цандрыпш, ул.Октябрьская, д.492</a>
+                </div>
+                </ul>
+                <ul class="simple_menue">
+                    <li class="item_menue me-5 ">
+                        <a href="#"> <img src="img/mail.svg" alt="mailsign" class="icon"></a>
+                        <a class="m12">booking@valentinahouse.ru</a>
+                    </li class="item_menue">
+                    <li class="item_menue me-5 "></li>
+                    <li> <a href="#"> <img src="img/teleph.svg" alt="telephonesign" class="icon"></a>
+                        <a class="m12">8 (862) 279-56-89</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="header-bottom">
+                <a href="#"><img src="img/Valentina Guest House.svg" alt="brandlogo"></a>
+                <ul class="simple_menue mstart111">
+                    <li class="mr14" onclick="window.location.href='index.html';">ГЛАВНАЯ</li>
+                    <div class="dropdown">
+                        <li class="mr14 btn btn-light dropdown-toggle py-2 px-3" type="button" id="roomsDropdown"
+                            data-bs-toggle="dropdown" aria-expanded="false">НОМЕРА И ЦЕНЫ</li>
+                        <ul class="dropdown-menu" aria-labelledby="roomsDropdown">
+                            <li><a class="dropdown-item" href="index2.html">2-Х МЕСТНЫЙ</a></li>
+                            <li><a class="dropdown-item" href="index2.html">СЕМЕЙНЫЙ</a></li>
+                            <li><a class="dropdown-item" href="index2.html">DELUXE</a></li>
+                            <li><a class="dropdown-item" href="index2.html">DELUXE +</a></li>
+                        </ul>
+                    </div>
+                    <li class="mr14" onclick="window.location.href='index3.html';"> СТАТЬИ</li>
+                    <li class="mr14" onclick="window.location.href='index4.html';"> ИНФОРМАЦИЯ</li>
+                    <li class="mr14">ПОЛНЫЙ ПАНСИОН</li>
+                </ul>
+                <div class="socials">
+                    <a href="#"><img src="img/tg.svg" alt="tg"></a>
+                    <a href="#"><img src="img/vb.svg" alt="vb"></a>
+                    <a href="#"><img src="img/fb.svg" alt="fb"></a>
+                    <a href="#"><img src="img/wk.svg" alt="wk"></a>
+                    <a href="#"><img src="img/inst.svg" alt="inst"></a>
+                </div>
+            </div>
+        </div>
+
+    </nav>
+
+    <div class=" secondp block20">
+        <div class="container " style="background-color: white;">
+
+            <img src="img/2p.svg" alt="" style="width: 100%;
+margin-top: 80px;">
+            <ul class="poloska">
+                <li style="color: rgba(63, 140, 255, 1);">Номер и Цена</li>
+                <li>Бронь и Оплата</li>
+                <li>Подтверждение</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="secondp block21">
+        <div class="container" style="background-color: white;">
+            <div class="poloskadat">
+                <ul class="ulunderpoloskadat">
+                    <li><img src="img/dat2.svg" style="margin-right: 4px;"> 2-ое суток</li>
+                    <li><img src="img/Line.svg" alt=""></li>
+                    <li><img src="img/person2.svg" style="margin-right: 4px;" alt="">2 взрослых</li>
+                    <li><img src="img/Line.svg" alt=""></li>
+                    <li><img src="img/dat21.svg" style="margin-right: 4px;" alt="">4 апреля</li>
+                    <li><img src="img/Line.svg" alt=""></li>
+                    <li><img src="img/dat22.svg" style="margin-right: 4px;" alt="">6 апреля</li>
+                </ul>
+                <button class="bpolosk">Изменить даты и гостей</button>
+            </div>
+        </div>
+
+    </div>
+
+    <div class=" secondp block22">
+        <div class="container" style="background-color: white;">
+            <div class="nomerablock">
+                <div class="coupon-container">
+                    <form class="coupon-form">
+                        <div class="coupon-input-group">
+                            <input type="text" placeholder="Введите код купона" class="coupon-input">
+                            <button type="submit" class="coupon-button">
+                                Проверка купона
+                            </button>
+                        </div>
+                    </form>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+    <div class=" secondp block23">
+        <div class="container" style="background-color: white;
+  ">
+            <div class="row ">
+
+                <div class="col-lg-12 col-md-12 col-12  "
+                    style="display: flex; justify-content: center;align-items: center; flex-direction: column;">
+
+
+                    <div class="card   " id="card1"
+                        style="width: 1036px; height: 390px; margin-left: 20px; margin-bottom: 24px; border-color: transparent; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.25);">
+                        <div class="calendar-overlay" id="calendarOverlay">
+                            <div class="calendar-container">
+                                <button type="button" class="btn btn-primary" id="closeCalendar"
+                                    style="margin-top: 13px; margin-left: 13px; margin-bottom: 20px;">Назад</button>
+                                <div id="calendar"></div>
+                            </div>
+                        </div>
+                        <div class="row " style="margin:0 ; padding: 0;" id="toHide">
+                            <div class="col-md-4  " style="padding: 0;">
+                                <div class="forimg" alt="..."
+                                    style="width: 282px; height: 300px; border-radius: 6px; margin-top: 18px; margin-left: 19px; overflow: hidden; align-content: end;padding-bottom: 30px;">
+                                    <div class="nalichie">В наличии 6 номеров</div>
+                                </div>
+                            </div>
+                            <div class="col-md-8" style="padding: 0;">
+                                <div class="card-body" style="padding-left: 0;">
+                                    <div class="row">
+                                        <div class="col-md-8">
+                                            <ul style=" display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center; font-size: 22px; ">
+                                                <li>
+                                                    <h5 class="card-title"
+                                                        style=" font-weight: 600; color: rgba(88, 88, 88, 1); font-size: 22px; margin-bottom: 0; ">
+                                                        2-Х МЕСТНЫЙ</h5>
+                                                </li>
+                                                <li
+                                                    style=" font-weight: 600; color: rgba(63, 140, 255, 1); font-size: 18px; display: flex;  align-items: center; justify-content: center;">
+                                                    2 <img src="img/person3.svg"
+                                                        style="margin-bottom: 5px; margin-left: 3px;"></li>
+                                            </ul>
+
+                                            <p class="card-text-small" style="margin-bottom: 14px;">
+                                                Небольшой и очень уютный светлый номер <br>
+                                                расположен на 1 этаже, что очень удобно <br>
+                                                для пожилых людей. </p>
+                                            <p class="card-text-main"> <b style="color: rgba(88, 88, 88, 1);
+    font-weight: 600;">Площадь номера:</b> 11 м2 <br>
+                                                <b style="color: rgba(88, 88, 88, 1);
+    font-weight: 600;"> Спальные места:</b> 2 односпальные или <br>
+                                                1 двуспальная кровать <br><b style="color: rgba(88, 88, 88, 1);
+    font-weight: 600;">Максимальное количество гостей:</b> 2 <br>
+                                                <b style="color: rgba(88, 88, 88, 1);
+    font-weight: 600;">Оснащение номера:</b> Комплект банных принадлежностей, <br>
+                                                мини-холодильник, современный телевизор с <br>кабельными каналами,
+                                                кондиционер <br>
+                                                <b style="color: rgba(88, 88, 88, 1);
+    font-weight: 600;">Оплата:</b> Взимается 30 процентов от общей стоимости
+                                                проживания
+                                            </p>
+                                            <ul style="gap: 10px; display: flex; align-items: center;">
+                                                <li><button type="button" id="showCalendar"
+                                                        class="btn btn-outline-primary kalendarb">Календарь</button>
+                                                </li>
+                                                <li><button type="button" id="toggleButton"
+                                                        class="btn btn-primary priceb">Цены</button></li>
+                                                <li><img src="img/q.svg" style="margin-top: 15px;" alt=""></li>
+                                            </ul>
+
+                                        </div>
+                                        <div class="col-md-4"
+                                            style="display: flex; align-items: center; align-content: center; flex-direction: column;">
+                                            <div class="firsto">
+                                                <p style="margin: 0;">Начиная с <br>
+                                                    <b
+                                                        style="color: rgba(255, 178, 63, 1); font-size: 20px; font-weight: 600;">1
+                                                        498,00 руб</b> <br>
+                                                    за 1 ночь, за номер
+                                                </p>
+                                                <button type="button" onclick="window.location.href='index5.html'"
+                                                    class="btn btn-primary"
+                                                    style="height: 40px; width: 180px ; margin-bottom: 6px;">Выбрать</button>
+                                                <p style="margin: 0;">Без питания</p>
+                                            </div>
+                                            <hr
+                                                style="border: none; height: 2px; background-color: rgba(63, 140, 255, 1); width: 180px;">
+                                            <div class="secop">
+
+                                                <p style="margin: 0;">Начиная с<br>
+                                                    <b
+                                                        style="color: rgba(255, 178, 63, 1); font-size: 20px; font-weight: 600;">1
+                                                        598,00 руб</b> <br>
+
+                                                    за 1 ночь, за номер
+                                                </p>
+                                                <button type="button" class="btn btn-primary"
+                                                    onclick="window.location.href='index5.html'"
+                                                    style="height: 40px; width: 180px ; margin-bottom: 6px;">Выбрать</button>
+                                                <p style="margin: 0;">С питанием для 2-х</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="content" style="display: flex; gap: 13px; padding-top: 10px;">
+                        <div class="firsto">
+                            <p style="margin: 0;">Начиная с <br>
+                                <b style="color: rgba(255, 178, 63, 1); font-size: 20px; font-weight: 600;">1 498,00
+                                    руб</b> <br>
+                                за 1 ночь, за номер
+                            </p>
+                            <button type="button" class="btn btn-primary" onclick="window.location.href='index5.html'"
+                                style="height: 40px; width: 180px ; margin-bottom: 6px;">Выбрать</button>
+                            <p style="margin: 0;">Без питания</p>
+                        </div>
+                        <hr
+                            style="border: none; height: 124px; background-color: rgba(210, 210, 210, 0.5); width: 2px;">
+                        <div class="secop">
+
+                            <p style="margin: 0;">Начиная с<br>
+                                <b style="color: rgba(255, 178, 63, 1); font-size: 20px; font-weight: 600;">1 598,00
+                                    руб</b> <br>
+
+                                за 1 ночь, за номер
+                            </p>
+                            <button type="button" class="btn btn-primary" onclick="window.location.href='index5.html'"
+                                style="height: 40px; width: 180px ; margin-bottom: 6px;">Выбрать</button>
+                            <p style="margin: 0;">С питанием для 2-х</p>
+                        </div>
+                        <hr
+                            style="border: none; height: 124px; background-color: rgba(210, 210, 210, 0.5); width: 2px;">
+                        <div class="secop">
+
+                            <p style="margin: 0;">Начиная с<br>
+                                <b style="color: rgba(255, 178, 63, 1); font-size: 20px; font-weight: 600;">1 598,00
+                                    руб</b> <br>
+
+                                за 1 ночь, за номер
+                            </p>
+                            <button type="button" onclick="window.location.href='index5.html'" class="btn btn-primary"
+                                style="height: 40px; width: 180px ; margin-bottom: 6px;">Выбрать</button>
+                            <p style="margin: 0;">С питанием для 2-х</p>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-lg-12 col-md-12 col-12  "
+                    style="display: flex; justify-content: center;align-items: center;  flex-direction: column;">
+
+                    <div class="card" id="card2"
+                        style="width: 1036px; margin-bottom: 24px; height: 390px; margin-left: 20px; border-color: transparent; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.25);">
+
+                        <div class="calendar-overlay" id="calendarOverlay1">
+                            <div class="calendar-container">
+                                <button type="button" class="btn btn-primary" id="closeCalendar1"
+                                    style="margin-top: 13px; margin-left: 13px; margin-bottom: 20px;">Назад</button>
+                                <div id="calendar1"></div>
+                            </div>
+                        </div>
+                        <div class="row " style="margin:0 ; padding: 0;" id="toHide1">
+                            <div class="col-md-4  " style="padding: 0;">
+                                <div class="forimg forimg1" alt="..."
+                                    style="width: 282px; height: 300px; border-radius: 6px; margin-top: 18px; margin-left: 19px; overflow: hidden; align-content: end;padding-bottom: 30px;">
+                                    <div class="nalichie">В наличии 7 номеров</div>
+                                </div>
+                            </div>
+                            <div class="col-md-8" style="padding: 0;">
+                                <div class="card-body" style="padding-left: 0;">
+                                    <div class="row">
+                                        <div class="col-md-8">
+                                            <ul style=" display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center; font-size: 22px; ">
+                                                <li>
+                                                    <h5 class="card-title"
+                                                        style=" font-weight: 600; color: rgba(88, 88, 88, 1); font-size: 22px; margin-bottom: 0; ">
+                                                        СЕМЕЙНЫЙ</h5>
+                                                </li>
+                                                <li
+                                                    style=" font-weight: 600; color: rgba(63, 140, 255, 1); font-size: 18px; display: flex;  align-items: center; justify-content: center;">
+                                                    4 <img src="img/person3.svg"
+                                                        style="margin-bottom: 5px; margin-left: 3px;"></li>
+                                            </ul>
+
+                                            <p class="card-text-small" style="margin-bottom: 14px;">
+                                                Идеальный выбор для семейного отдыха в Абхазии! <br>
+                                                Просторный трехместный номер с возможностью <br>
+                                                установки дополнительной кровати позволяет это! </p>
+                                            <p class="card-text-main"> <b style="color: rgba(88, 88, 88, 1);
+    font-weight: 600;">Площадь номера:</b> 18 м2 <br>
+                                                <b style="color: rgba(88, 88, 88, 1);
+    font-weight: 600;"> Спальные места:</b> 1 односпальная и <br>
+                                                1 двуспальная кровать <br><b style="color: rgba(88, 88, 88, 1);
+    font-weight: 600;">Максимальное количество гостей:</b> 4 <br>
+                                                <b style="color: rgba(88, 88, 88, 1);
+    font-weight: 600;">Оснащение номера:</b> Комплект банных принадлежностей, <br>
+                                                мини-холодильник, современный телевизор с <br>кабельными каналами,
+                                                кондиционер <br>
+                                                <b style="color: rgba(88, 88, 88, 1);
+    font-weight: 600;">Оплата:</b> Взимается 30 процентов от общей стоимости
+                                                проживания
+                                            </p>
+                                            <ul style="gap: 10px; display: flex; align-items: center;">
+                                                <li><button type="button" id="showCalendar1"
+                                                        class="btn btn-outline-primary kalendarb">Календарь</button>
+                                                </li>
+                                                <li><button type="button" id="toggleButton1"
+                                                        class="btn btn-primary priceb">Цены</button></li>
+                                                <li><img src="img/q.svg" style="margin-top: 15px;" alt=""></li>
+                                            </ul>
+                                        </div>
+                                        <div class="col-md-4"
+                                            style="display: flex; align-items: center; align-content: center; flex-direction: column;">
+                                            <div class="firsto">
+                                                <p style="margin: 0;">Начиная с <br>
+                                                    <b
+                                                        style="color: rgba(255, 178, 63, 1); font-size: 20px; font-weight: 600;">2
+                                                        247,00 руб</b> <br>
+                                                    за 1 ночь, за номер
+                                                </p>
+                                                <button type="button" onclick="window.location.href='index5.html'"
+                                                    class="btn btn-primary"
+                                                    style="height: 40px; width: 180px ; margin-bottom: 6px;">Выбрать</button>
+                                                <p style="margin: 0;">Без питания</p>
+                                            </div>
+                                            <hr
+                                                style="border: none; height: 2px; background-color: rgba(63, 140, 255, 1); width: 180px;">
+                                            <div class="secop">
+
+                                                <p style="margin: 0;">Начиная с<br>
+                                                    <b
+                                                        style="color: rgba(255, 178, 63, 1); font-size: 20px; font-weight: 600;">2
+                                                        397,00 руб</b> <br>
+
+                                                    за 1 ночь, за номер
+                                                </p>
+                                                <button type="button" onclick="window.location.href='index5.html'"
+                                                    class="btn btn-primary"
+                                                    style="height: 40px; width: 180px ; margin-bottom: 6px;">Выбрать</button>
+                                                <p style="margin: 0;">С питанием для 3-х</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="content1" style="display: flex; gap: 13px; padding-top: 10px;">
+                        <div class="firsto">
+                            <p style="margin: 0;">Начиная с <br>
+                                <b style="color: rgba(255, 178, 63, 1); font-size: 20px; font-weight: 600;">1 498,00
+                                    руб</b> <br>
+                                за 1 ночь, за номер
+                            </p>
+                            <button type="button" onclick="window.location.href='index5.html'" class="btn btn-primary"
+                                style="height: 40px; width: 180px ; margin-bottom: 6px;">Выбрать</button>
+                            <p style="margin: 0;">Без питания</p>
+                        </div>
+                        <hr
+                            style="border: none; height: 124px; background-color: rgba(210, 210, 210, 0.5); width: 2px;">
+                        <div class="secop">
+
+                            <p style="margin: 0;">Начиная с<br>
+                                <b style="color: rgba(255, 178, 63, 1); font-size: 20px; font-weight: 600;">1 598,00
+                                    руб</b> <br>
+
+                                за 1 ночь, за номер
+                            </p>
+                            <button type="button" onclick="window.location.href='index5.html'" class="btn btn-primary"
+                                style="height: 40px; width: 180px ; margin-bottom: 6px;">Выбрать</button>
+                            <p style="margin: 0;">С питанием для 2-х</p>
+                        </div>
+                        <hr
+                            style="border: none; height: 124px; background-color: rgba(210, 210, 210, 0.5); width: 2px;">
+                        <div class="secop">
+
+                            <p style="margin: 0;">Начиная с<br>
+                                <b style="color: rgba(255, 178, 63, 1); font-size: 20px; font-weight: 600;">1 598,00
+                                    руб</b> <br>
+
+                                за 1 ночь, за номер
+                            </p>
+                            <button type="button" class="btn btn-primary" onclick="window.location.href='index5.html'"
+                                style="height: 40px; width: 180px ; margin-bottom: 6px;">Выбрать</button>
+                            <p style="margin: 0;">С питанием для 2-х</p>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-lg-12 col-md-12 col-12  "
+                    style="display: flex; justify-content: center;align-items: center;  flex-direction: column;">
+
+
+                    <div class="card " id="card3"
+                        style="width: 1036px; margin-bottom: 24px; height: 390px; margin-left: 20px; border-color: transparent; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.25);">
+
+                        <div class="calendar-overlay" id="calendarOverlay2">
+                            <div class="calendar-container">
+                                <button type="button" class="btn btn-primary" id="closeCalendar2"
+                                    style="margin-top: 13px; margin-left: 13px; margin-bottom: 20px;">Назад</button>
+                                <div id="calendar2"></div>
+                            </div>
+                        </div>
+                        <div class="row " style="margin:0 ; padding: 0;" id="toHide2">
+                            <div class="col-md-4  " style="padding: 0;">
+                                <div class="forimg forimg2" alt="..."
+                                    style="width: 282px; height: 300px; border-radius: 6px; margin-top: 18px; margin-left: 19px; overflow: hidden; align-content: end;padding-bottom: 30px;">
+                                    <div class="nalichie">В наличии 8 номеров</div>
+                                </div>
+                            </div>
+                            <div class="col-md-8" style="padding: 0;">
+                                <div class="card-body" style="padding-left: 0;">
+                                    <div class="row">
+                                        <div class="col-md-8">
+                                            <ul style=" display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center; font-size: 22px; ">
+                                                <li>
+                                                    <h5 class="card-title"
+                                                        style=" font-weight: 600; color: rgba(88, 88, 88, 1); font-size: 22px; margin-bottom: 0; ">
+                                                        DELUXE</h5>
+                                                </li>
+                                                <li
+                                                    style=" font-weight: 600; color: rgba(63, 140, 255, 1); font-size: 18px; display: flex;  align-items: center; justify-content: center;">
+                                                    4 <img src="img/person3.svg"
+                                                        style="margin-bottom: 5px; margin-left: 3px;"></li>
+                                            </ul>
+
+                                            <p class="card-text-small" style="margin-bottom: 14px;">
+                                                Двухкомнатный просторный номер площадью 30 <br>
+                                                квадратных метров </p>
+                                            <p class="card-text-main"> <b style="color: rgba(88, 88, 88, 1);
+    font-weight: 600;">Площадь номера:</b> 30 м2 <br>
+                                                <b style="color: rgba(88, 88, 88, 1);
+    font-weight: 600;"> Спальные места:</b> 1 раскладной диван и <br>
+                                                1 двуспальная кровать <br><b style="color: rgba(88, 88, 88, 1);
+    font-weight: 600;">Максимальное количество гостей:</b> 4 <br>
+                                                <b style="color: rgba(88, 88, 88, 1);
+    font-weight: 600;">Оснащение номера:</b> Комплект банных принадлежностей, <br>
+                                                мини-холодильник, современный телевизор с <br>кабельными каналами,
+                                                кондиционер <br>
+                                                <b style="color: rgba(88, 88, 88, 1);
+    font-weight: 600;">Оплата:</b> Взимается 30 процентов от общей стоимости
+                                                проживания
+                                            </p>
+                                            <ul style="gap: 10px; display: flex; align-items: center;">
+                                                <li><button type="button" id="showCalendar2"
+                                                        class="btn btn-outline-primary kalendarb">Календарь</button>
+                                                </li>
+                                                <li><button type="button" id="toggleButton2"
+                                                        class="btn btn-primary priceb">Цены</button></li>
+                                                <li><img src="img/q.svg" style="margin-top: 15px;" alt=""></li>
+                                            </ul>
+                                        </div>
+                                        <div class="col-md-4"
+                                            style="display: flex; align-items: center; align-content: center; flex-direction: column;">
+                                            <div class="firsto">
+                                                <p style="margin: 0;">Начиная с <br>
+                                                    <b
+                                                        style="color: rgba(255, 178, 63, 1); font-size: 20px; font-weight: 600;">2
+                                                        995,00 руб</b> <br>
+                                                    за 1 ночь, за номер
+                                                </p>
+                                                <button type="button" class="btn btn-primary"
+                                                    onclick="window.location.href='index5.html'"
+                                                    style="height: 40px; width: 180px ; margin-bottom: 6px;">Выбрать</button>
+                                                <p style="margin: 0;">Без питания</p>
+                                            </div>
+                                            <hr
+                                                style="border: none; height: 2px; background-color: rgba(63, 140, 255, 1); width: 180px;">
+                                            <div class="secop">
+
+                                                <p style="margin: 0;">Начиная с<br>
+                                                    <b
+                                                        style="color: rgba(255, 178, 63, 1); font-size: 20px; font-weight: 600;">3
+                                                        196,00 руб</b> <br>
+
+                                                    за 1 ночь, за номер
+                                                </p>
+                                                <button type="button" class="btn btn-primary"
+                                                    onclick="window.location.href='index5.html'"
+                                                    style="height: 40px; width: 180px ; margin-bottom: 6px;">Выбрать</button>
+                                                <p style="margin: 0;">С питанием для 4-х</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="content2" style="display: flex; gap: 13px; padding-top: 10px;">
+                        <div class="firsto">
+                            <p style="margin: 0;">Начиная с <br>
+                                <b style="color: rgba(255, 178, 63, 1); font-size: 20px; font-weight: 600;">1 498,00
+                                    руб</b> <br>
+                                за 1 ночь, за номер
+                            </p>
+                            <button type="button" class="btn btn-primary" onclick="window.location.href='index5.html'"
+                                style="height: 40px; width: 180px ; margin-bottom: 6px;">Выбрать</button>
+                            <p style="margin: 0;">Без питания</p>
+                        </div>
+                        <hr
+                            style="border: none; height: 124px; background-color: rgba(210, 210, 210, 0.5); width: 2px;">
+                        <div class="secop">
+
+                            <p style="margin: 0;">Начиная с<br>
+                                <b style="color: rgba(255, 178, 63, 1); font-size: 20px; font-weight: 600;">1 598,00
+                                    руб</b> <br>
+
+                                за 1 ночь, за номер
+                            </p>
+                            <button type="button" class="btn btn-primary" onclick="window.location.href='index5.html'"
+                                style="height: 40px; width: 180px ; margin-bottom: 6px;">Выбрать</button>
+                            <p style="margin: 0;">С питанием для 2-х</p>
+                        </div>
+                        <hr
+                            style="border: none; height: 124px; background-color: rgba(210, 210, 210, 0.5); width: 2px;">
+                        <div class="secop">
+
+                            <p style="margin: 0;">Начиная с<br>
+                                <b style="color: rgba(255, 178, 63, 1); font-size: 20px; font-weight: 600;">1 598,00
+                                    руб</b> <br>
+
+                                за 1 ночь, за номер
+                            </p>
+                            <button type="button" class="btn btn-primary" onclick="window.location.href='index5.html'"
+                                style="height: 40px; width: 180px ; margin-bottom: 6px;">Выбрать</button>
+                            <p style="margin: 0;">С питанием для 2-х</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-12 col-md-12 col-12  "
+                    style="display: flex; justify-content: center;align-items: center;  flex-direction: column;">
+
+
+                    <div class="card" id="card4"
+                        style="width: 1036px; margin-bottom: 24px; height: 390px; margin-left: 20px; border-color: transparent; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.25);">
+                        <div class="calendar-overlay" id="calendarOverlay3">
+                            <div class="calendar-container">
+                                <button type="button" class="btn btn-primary" id="closeCalendar3"
+                                    style="margin-top: 13px; margin-left: 13px; margin-bottom: 20px;">Назад</button>
+                                <div id="calendar3"></div>
+                            </div>
+                        </div>
+                        <div class="row " style="margin:0 ; padding: 0;" id="toHide3">
+                            <div class="col-md-4  " style="padding: 0;">
+                                <div class="forimg forimg3" alt="..."
+                                    style="width: 282px; height: 300px; border-radius: 6px; margin-top: 18px; margin-left: 19px; overflow: hidden; align-content: end;padding-bottom: 30px;">
+                                    <div class="nalichie">В наличии 5 номеров</div>
+                                </div>
+                            </div>
+                            <div class="col-md-8" style="padding: 0;">
+                                <div class="card-body" style="padding-left: 0;">
+                                    <div class="row">
+                                        <div class="col-md-8">
+                                            <ul style=" display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center; font-size: 22px; ">
+                                                <li>
+                                                    <h5 class="card-title"
+                                                        style=" font-weight: 600; color: rgba(88, 88, 88, 1); font-size: 22px; margin-bottom: 0; ">
+                                                        DELUXE+</h5>
+                                                </li>
+                                                <li
+                                                    style=" font-weight: 600; color: rgba(63, 140, 255, 1); font-size: 18px; display: flex;  align-items: center; justify-content: center;">
+                                                    7 <img src="img/person3.svg"
+                                                        style="margin-bottom: 5px; margin-left: 3px;"></li>
+                                            </ul>
+
+                                            <p class="card-text-small" style="margin-bottom: 14px;">
+                                                Небольшой и очень уютный светлый номер <br>
+                                                расположен на 1 этаже, что очень удобно <br>
+                                                для пожилых людей. </p>
+                                            <p class="card-text-main"> <b style="color: rgba(88, 88, 88, 1);
+    font-weight: 600;">Площадь номера:</b> 30 м2 <br>
+                                                <b style="color: rgba(88, 88, 88, 1);
+    font-weight: 600;"> Спальные места:</b> 1 раскладной диван и <br>
+                                                1 двуспальная кровать <br><b style="color: rgba(88, 88, 88, 1);
+    font-weight: 600;">Максимальное количество гостей:</b> 7 <br>
+                                                <b style="color: rgba(88, 88, 88, 1);
+    font-weight: 600;">Оснащение номера:</b> Комплект банных принадлежностей, <br>
+                                                мини-холодильник, современный телевизор с <br>кабельными каналами,
+                                                кондиционер <br>
+                                                <b style="color: rgba(88, 88, 88, 1);
+    font-weight: 600;">Оплата:</b> Взимается 30 процентов от общей стоимости
+                                                проживания
+                                            </p>
+                                            <ul style="gap: 10px; display: flex; align-items: center;">
+                                                <li><button type="button" id="showCalendar3"
+                                                        class="btn btn-outline-primary kalendarb">Календарь</button>
+                                                </li>
+                                                <li><button type="button" id="toggleButton3"
+                                                        class="btn btn-primary priceb">Цены</button></li>
+                                                <li><img src="img/q.svg" style="margin-top: 15px;" alt=""></li>
+                                            </ul>
+                                        </div>
+                                        <div class="col-md-4"
+                                            style="display: flex; align-items: center; align-content: center; flex-direction: column;">
+                                            <div class="firsto">
+                                                <p style="margin: 0;">Начиная с <br>
+                                                    <b
+                                                        style="color: rgba(255, 178, 63, 1); font-size: 20px; font-weight: 600;">2
+                                                        995,00 руб</b> <br>
+                                                    за 1 ночь, за номер
+                                                </p>
+                                                <button type="button" class="btn btn-primary"
+                                                    onclick="window.location.href='index5.html'"
+                                                    style="height: 40px; width: 180px ; margin-bottom: 6px;">Выбрать</button>
+                                                <p style="margin: 0;">Без питания</p>
+                                            </div>
+                                            <hr
+                                                style="border: none; height: 2px; background-color: rgba(63, 140, 255, 1); width: 180px;">
+                                            <div class="secop">
+
+                                                <p style="margin: 0;">Начиная с<br>
+                                                    <b
+                                                        style="color: rgba(255, 178, 63, 1); font-size: 20px; font-weight: 600;">3
+                                                        196,00 руб</b> <br>
+
+                                                    за 1 ночь, за номер
+                                                </p>
+                                                <button type="button" class="btn btn-primary"
+                                                    onclick="window.location.href='index5.html'"
+                                                    style="height: 40px; width: 180px ; margin-bottom: 6px;">Выбрать</button>
+                                                <p style="margin: 0;">С питанием для 4-х</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="content3" style="display: flex; gap: 13px; padding-top: 10px;">
+                        <div class="firsto">
+                            <p style="margin: 0;">Начиная с <br>
+                                <b style="color: rgba(255, 178, 63, 1); font-size: 20px; font-weight: 600;">1 498,00
+                                    руб</b> <br>
+                                за 1 ночь, за номер
+                            </p>
+                            <button type="button" class="btn btn-primary" onclick="window.location.href='index5.html'"
+                                style="height: 40px; width: 180px ; margin-bottom: 6px;">Выбрать</button>
+                            <p style="margin: 0;">Без питания</p>
+                        </div>
+                        <hr
+                            style="border: none; height: 124px; background-color: rgba(210, 210, 210, 0.5); width: 2px;">
+                        <div class="secop">
+
+                            <p style="margin: 0;">Начиная с<br>
+                                <b style="color: rgba(255, 178, 63, 1); font-size: 20px; font-weight: 600;">1 598,00
+                                    руб</b> <br>
+
+                                за 1 ночь, за номер
+                            </p>
+                            <button type="button" class="btn btn-primary" onclick="window.location.href='index5.html'"
+                                style="height: 40px; width: 180px ; margin-bottom: 6px;">Выбрать</button>
+                            <p style="margin: 0;">С питанием для 2-х</p>
+                        </div>
+                        <hr
+                            style="border: none; height: 124px; background-color: rgba(210, 210, 210, 0.5); width: 2px;">
+                        <div class="secop">
+
+                            <p style="margin: 0;">Начиная с<br>
+                                <b style="color: rgba(255, 178, 63, 1); font-size: 20px; font-weight: 600;">1 598,00
+                                    руб</b> <br>
+
+                                за 1 ночь, за номер
+                            </p>
+                            <button type="button" class="btn btn-primary" onclick="window.location.href='index5.html'"
+                                style="height: 40px; width: 180px ; margin-bottom: 6px;">Выбрать</button>
+                            <p style="margin: 0;">С питанием для 2-х</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+        </div>
+    </div>
+    <div class=" secondp block24 ">
+        <div class="container" style="background-color: white; display: flex;">
+
+            <div class="yslugisq">
+                <p style="padding: 0;
+            margin: 0; text-align: left; font-size: 30px; font-weight: 600; color: white; margin-bottom: 21px;">Услуги
+                    и оснащение</p>
+                <table>
+                    <tr valign="top">
+                        <td style="font-size: 16px; font-weight: 600; white-space: nowrap;">Общие:</td>
+                        <td style="font-size: 12px; font-weight: 400;">Кондиционер, Отопление, Семейные номера,Номера
+                            для некурящих</td>
+                    </tr>
+                    <tr valign="top">
+                        <td style="font-size: 16px; font-weight: 600; white-space: nowrap; padding-right: 15px;">
+                            Активный отдых: </td>
+                        <td style="font-size: 12px; font-weight: 400;">Детская игровая площадка</td>
+                    </tr>
+                    <tr valign="top">
+                        <td style="font-size: 16px; font-weight: 600;white-space: nowrap;">Услуги:</td>
+                        <td style="font-size: 12px; font-weight: 400;">Общий лаундж/гостиная с телевизором,Услуги по
+                            глажению одежды (оплачивается отдельно),Прачечная (оплачивается отдельно).</td>
+                    </tr>
+                    <tr valign="top">
+                        <td style="font-size: 16px; font-weight: 600;white-space: nowrap;">Интернет:</td>
+                        <td style="font-size: 12px; font-weight: 400;">Wi-Fi предоставляется в номерах отеля бесплатно.
+                        </td>
+                    </tr>
+                    <tr valign="top">
+                        <td style="font-size: 16px; font-weight: 600;white-space: nowrap;">Парковка:</td>
+                        <td style="font-size: 12px; font-weight: 400;">Бесплатная частная парковка на месте .</td>
+                    </tr>
+                </table>
+            </div>
+            <div class="pravilasq" style="margin-bottom: 40px;">
+                <p
+                    style="padding: 0;
+            margin: 0; text-align: left; font-size: 30px; font-weight: 600; color: rgba(30, 30, 30, 1); margin-bottom: 17px;">
+                    Правила</p>
+                <p
+                    style=" padding: 0;
+            margin: 0;text-align: left; font-size: 12px; font-weight: 400; color: rgba(30, 30, 30, 1); padding-bottom: 37px; ">
+                    <b style="font-size: 16px; font-weight: 600;">Заезд:</b> С 16:00 <br>
+                    <b style="font-size: 16px; font-weight: 600; margin: 0; padding: 0;">Выезд:</b> До 12:00<br>
+                    <b style="font-size: 16px; font-weight: 600; margin: 0; padding: 0;">Отмена / Предоплата:</b> Оплата
+                    бронирования гостевого дома производится <br>
+                    после подтверждения бронирования. Вы можете сделать предоплату в размере 30% от <br>
+                    суммы бронирования или полностью. При оплате 30% проживания доплату за оставшиеся <br>
+                    сутки можно произвести по прибытии в наш гостевой дом. В случае отмены <br>
+                    бронирования, предоплата не возвращается. В низкий сезон, а также при наличии <br>
+                    Договора на корпоративное обслуживание бронирование гостевого дома возможно <br>
+                    без предоплаты. Все возможные вытекающие обязательства и права Сторон возникают <br>
+                    исключительно между отправителем и получателем платежа — клиентом и гостевым домом.<br>
+                    <b style="font-size: 16px; font-weight: 600; margin: 0; padding: 0;">Дети и дополнительные спальные
+                        места:</b> Разрешается проживание детей <br>
+                    любого возраста. При размещении всех детей младше 2 лет на детских кроватках <br>
+                    проживание им предоставляется бесплатно . При размещении всех детей младше 6 лет
+                    на дополнительных кроватях взимается RUB 1000 за ночь. При дополнительном <br>
+                    размещении всех детей старшего возраста или взрослых на дополнительных кроватях
+                    взимается RUB 1000 за ночь. Максимальное количество дополнительных кроватей в <br>
+                    номере - 1. Дополнительные кровати и детские кроватки предоставляются по запросу.
+                    Требуется подтверждение со стороны отеля о предоставлении данной услуги. <br>
+                    Дополнительные услуги не включаются автоматически в общую стоимость и оплачиваются
+                    отдельно во время вашего проживания.<br>
+                    <b style="font-size: 16px; font-weight: 600; margin: 0; padding: 0;">Животные:</b> Размещение
+                    домашних животных допускается по предварительному запросу.
+                    Данная услуга может быть платной.<br>
+                    <b style="font-size: 16px; font-weight: 600; margin: 0; padding: 0;">Принимаемые кредитные
+                        карты:</b> Этот объект размещения принимает т
+                    олько наличные.
+                </p>
+            </div>
+
+        </div>
+    </div>
+
+    <footer style="margin-top: 0;">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3">
+                    <h3 class="footer-title">Геолокация</h3>
+                    <iframe src="https://yandex.ru/map-widget/v1/?ll=40.0765,43.3943&z=8&pt=40.0765,43.3943,pm2rdl"
+                        width="245" height="173" frameborder="1" allowfullscreen="true"
+                        style="border: 1px solid #eee; border-radius: 8px; margin: 20px 0;">
+                    </iframe>
+                </div>
+
+                <div class="col-lg-3 ">
+                    <h3>Контакты</h3>
+                    <ul class="footer-list">
+                        <li> <img src="img/tele2.svg" class="imgfootr" alt=""> 8 (862) 279-56-89</li>
+                        <li><img src="img/home2.svg" class="imgfootr" alt=""> Абхазия, Цандрыпш</li>
+                        <li><img src="img/metka.svg" class="imgfootr" alt=""> ул.Октябрьская, д.492</li>
+                        <li><img src="img/mail2.svg" class="imgfootr" alt=""> booking@valentinahouse.ru</li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-3 ">
+                    <h3>Информация</h3>
+                    <ul class="footer-list">
+                        <li>Заезд: с 16:00</li>
+                        <li>Выезд: до 12:00</li>
+                        <li>Бесплатный WI-FI</li>
+                        <li>Бесплатная парковка</li>
+                        <li><a href="#">О нас</a></li>
+                        <li><a href="#">Условия бронирования</a></li>
+                        <li><a href="#">Политика конфиденциальности</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 ">
+                    <h3>Погода</h3>
+                    <ul class="footer-list">
+                        <li>Яндекс.Погода : +17</li>
+                    </ul>
+                    <div class="socials socials2">
+                        <a href="#"><img src="img/tg2.svg" alt="tg"></a>
+                        <a href="#"><img src="img/vb2.svg" alt="vb"></a>
+                        <a href="#"><img src="img/fb2.svg" alt="fb"></a>
+                        <a href="#"><img src="img/wk2.svg" alt="wk"></a>
+                        <a href="#"><img src="img/inst2.svg" alt="inst"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <div class="container">
+                <h2> © 2015–2021 – VALENTINA GUEST HOUSE</h2>
+            </div>
+        </div>
+        </div>
+
+
+
+        </div>
+        </div>
+
+    </footer>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
+    <script src="https://cdn.jsdelivr.net/npm/flatpickr/dist/l10n/ru.js"></script>
+    <script>
+
+        const calendar = document.getElementById("calendar");
+        const calendar1 = document.getElementById("calendar1");
+        const calendar2 = document.getElementById("calendar2");
+        const calendar3 = document.getElementById("calendar3");
+        const calendarBtn = document.getElementById("showCalendar");
+        const calendarBtn1 = document.getElementById("showCalendar1");
+        const calendarBtn2 = document.getElementById("showCalendar2");
+        const calendarBtn3 = document.getElementById("showCalendar3");
+        const calendarOverlay = document.getElementById("calendarOverlay");
+        const calendarOverlay1 = document.getElementById("calendarOverlay1");
+        const calendarOverlay2 = document.getElementById("calendarOverlay2");
+        const calendarOverlay3 = document.getElementById("calendarOverlay3");
+
+        const closeCalendarBtn = document.getElementById("closeCalendar");
+        const closeCalendarBtn1 = document.getElementById("closeCalendar1");
+        const closeCalendarBtn2 = document.getElementById("closeCalendar2");
+        const closeCalendarBtn3 = document.getElementById("closeCalendar3");
+        const toHide = document.getElementById("toHide");
+        const toHide1 = document.getElementById("toHide1");
+        const toHide2 = document.getElementById("toHide2");
+        const toHide3 = document.getElementById("toHide3");
+
+
+        let isOpen = false;
+        let fp = null;
+
+        calendarBtn.addEventListener("click", () => {
+            if (!isOpen) {
+                toHide.style.display = "none";
+                calendarOverlay.style.display = "flex";
+
+                fp = flatpickr(calendar, {
+                    inline: true,
+                    mode: "multiple",
+
+                    showMonths: 3,
+                    locale: "ru",
+                    defaultDate: ["2024-04-04", "2024-05-04", "2024-06-04"],
+
+                });
+            }
+        });
+        calendarBtn1.addEventListener("click", () => {
+            if (!isOpen) {
+                toHide1.style.display = "none";
+                calendarOverlay1.style.display = "flex";
+
+                fp = flatpickr(calendar1, {
+                    inline: true,
+                    mode: "multiple",
+
+                    showMonths: 3,
+                    locale: "ru",
+                    defaultDate: ["2024-04-04", "2024-05-04", "2024-06-04"],
+
+                });
+            }
+        });
+
+        calendarBtn2.addEventListener("click", () => {
+            if (!isOpen) {
+                toHide2.style.display = "none";
+                calendarOverlay2.style.display = "flex";
+
+                fp = flatpickr(calendar2, {
+                    inline: true,
+                    mode: "multiple",
+
+                    showMonths: 3,
+                    locale: "ru",
+                    defaultDate: ["2024-04-04", "2024-05-04", "2024-06-04"],
+
+                });
+            }
+        });
+
+        calendarBtn3.addEventListener("click", () => {
+            if (!isOpen) {
+                toHide3.style.display = "none";
+                calendarOverlay3.style.display = "flex";
+
+                fp = flatpickr(calendar3, {
+                    inline: true,
+                    mode: "multiple",
+
+                    showMonths: 3,
+                    locale: "ru",
+                    defaultDate: ["2024-04-04", "2024-05-04", "2024-06-04"],
+
+                });
+            }
+        });
+
+
+        closeCalendarBtn.addEventListener("click", () => {
+            // Скрываем оверлей
+            calendarOverlay.style.display = "none";
+            toHide.style.display = "flex";
+
+            // Уничтожаем календарь
+            if (fp) {
+                fp.destroy();
+            }
+        });
+        closeCalendarBtn1.addEventListener("click", () => {
+            // Скрываем оверлей
+            calendarOverlay1.style.display = "none";
+            toHide1.style.display = "flex";
+
+            // Уничтожаем календарь
+            if (fp) {
+                fp.destroy();
+            }
+        });
+        closeCalendarBtn2.addEventListener("click", () => {
+            // Скрываем оверлей
+            calendarOverlay2.style.display = "none";
+            toHide2.style.display = "flex";
+
+            // Уничтожаем календарь
+            if (fp) {
+                fp.destroy();
+            }
+        });
+        closeCalendarBtn3.addEventListener("click", () => {
+            // Скрываем оверлей
+            calendarOverlay3.style.display = "none";
+            toHide3.style.display = "flex";
+
+            // Уничтожаем календарь
+            if (fp) {
+                fp.destroy();
+            }
+        });
+
+
+
+        const toggleButton = document.getElementById('toggleButton');
+        const toggleButton1 = document.getElementById('toggleButton1');
+        const toggleButton2 = document.getElementById('toggleButton2');
+        const toggleButton3 = document.getElementById('toggleButton3');
+
+
+
+
+        const content = document.getElementById('content');
+        const content1 = document.getElementById('content1');
+        const content2 = document.getElementById('content2');
+        const content3 = document.getElementById('content3');
+
+        toggleButton.addEventListener('click', function () {
+            if (content.classList.contains('show')) {
+                // Плавное закрытие (сначала убираем padding, потом высоту)
+                content.style.overflow = 'hidden'; // Чтобы анимация была плавной
+
+                document.getElementById('card1').style.marginBottom = '24px';
+                setTimeout(() => {
+                    content.classList.remove('show');
+                }, 10); // Минимальная задержка для плавности
+            } else {
+                // Плавное открытие
+                document.getElementById('card1').style.marginBottom = '0';
+                content.classList.add('show');
+                content.style.overflow = 'visible'; // Чтобы контент не обрезался
+            }
+        });
+
+        toggleButton1.addEventListener('click', function () {
+            if (content1.classList.contains('show')) {
+                // Плавное закрытие (сначала убираем padding, потом высоту)
+                content1.style.overflow = 'hidden'; // Чтобы анимация была плавной
+
+                document.getElementById('card2').style.marginBottom = '24px';
+                setTimeout(() => {
+                    content1.classList.remove('show');
+                }, 10); // Минимальная задержка для плавности
+            } else {
+                // Плавное открытие
+                document.getElementById('card2').style.marginBottom = '0';
+                content1.classList.add('show');
+                content1.style.overflow = 'visible'; // Чтобы контент не обрезался
+            }
+        });
+        toggleButton2.addEventListener('click', function () {
+            if (content2.classList.contains('show')) {
+                // Плавное закрытие (сначала убираем padding, потом высоту)
+                content2.style.overflow = 'hidden'; // Чтобы анимация была плавной
+
+                document.getElementById('card3').style.marginBottom = '24px';
+                setTimeout(() => {
+                    content2.classList.remove('show');
+                }, 10); // Минимальная задержка для плавности
+            } else {
+                // Плавное открытие
+                document.getElementById('card3').style.marginBottom = '0';
+                content2.classList.add('show');
+                content2.style.overflow = 'visible'; // Чтобы контент не обрезался
+            }
+        });
+        toggleButton3.addEventListener('click', function () {
+            if (content3.classList.contains('show')) {
+                // Плавное закрытие (сначала убираем padding, потом высоту)
+                content3.style.overflow = 'hidden'; // Чтобы анимация была плавной
+
+                document.getElementById('card4').style.marginBottom = '24px';
+                setTimeout(() => {
+                    content3.classList.remove('show');
+                }, 10); // Минимальная задержка для плавности
+            } else {
+                // Плавное открытие
+                document.getElementById('card4').style.marginBottom = '0';
+                content3.classList.add('show');
+                content3.style.overflow = 'visible'; // Чтобы контент не обрезался
+            }
+        });
+
+    </script>
+
+</body>
+
+</html>
