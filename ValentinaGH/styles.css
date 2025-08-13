@@ -2,6 +2,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 body {
   font-family: "Montserrat", serif;
+   margin: 0;
+            padding: 0;
+            
+            touch-action: pan-x pan-y;
 }
 
 .m12{
@@ -138,6 +142,14 @@ p{
     font-weight: 600;
   
 }
+
+.container {
+            width: 1320px; /* Фиксированная ширина (например, 1200px) */
+            margin: 0 auto; /* Центрирование по горизонтали */
+            
+         
+         
+        }
 
 .innercard{
     height: 174px;
@@ -824,5 +836,6 @@ display: flex;
 .priceb{
   border-color:rgba(255, 178, 63, 1); color: white; height: 34px; width: 120px; font-size: 12px; margin-top: 15px !important; background-color:rgba(255, 178, 63, 1) ; box-shadow: none;
 }
+
 
 
